@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+    margin: 0;
+    /* border: 20px solid black; */
+}
+
+.left-boxe > div{
+    margin-bottom: 10px;
+    /* border: 20px solid black; */
+    /* margin: 5px; */
+    padding: 10px;
+}
+
+.left-boxe{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-size: cover;
+}
+.right-boxe{
+    width: 40%;
+    flex-shrink: 0;
+
+}
+
+.right-boxe> img{   
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.logo{
+    margin-top: 120px;
+    /* margin-left: 100px; */
+    width: 50%;
+   
+}
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 50%;
+    /* font: bold 90px 'Josefin Sans'; */
+}
+#tittle1{
+    font: 100px 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    color:  hsl(0, 36%, 70%);
+
+}
+#tittle2, #tittle3{
+    font:  bold 100px 'Josefin Sans';
+    /* font-weight: 300; */
+}
+.left-boxe > div{
+    margin-left: 200px;
+    /* margin-right: 200px; */
+}
+.content{
+    font: 26px 'Josefin Sans';
+    font-weight: 400;
+    width: 50%;
+    color: hsl(0, 36%, 70%);
+    line-height: 1.6;
+}
+.email-boxe{
+    display: flex;
+}
+#email{
+    font: 23px 'Josefin Sans';
+    /* text-align: left; */
+    padding: 30px;
+    place-content: left;
+    color: hsl(0, 36%, 70%);
+    margin-top: 20px;
+    border: 2px solid hsl(0, 36%, 70%);
+    border-radius: 150px;
+    width: 60%;
+    /* height: 80px; */
+    /* text-align: center; */
+}
